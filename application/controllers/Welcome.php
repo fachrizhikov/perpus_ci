@@ -18,8 +18,12 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function home()
+	public function index()
 	{
-		$this->load->view('dashboard/home');
+		$this->load->view('welcome_message');
+	}
+	public function home2() // ini untuk halaman kedua : http://localhost/Ci/index.php/welcome/home2
+	{
+		$this->load->view('dashboard/home2');
 	}
 }
