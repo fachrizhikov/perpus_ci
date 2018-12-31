@@ -23,8 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-/* buat memanggil url yang ada di htdocs */
-$config['base_url'] = 'http://localhost/perpus/ci';
+$config['base_url'] = 'http://localhost/CodeIgniterOri/'; // masukan url yang sesuai dengan folder c/'http://localhost/ci'
 
 /*
 |--------------------------------------------------------------------------
@@ -36,7 +35,7 @@ $config['base_url'] = 'http://localhost/perpus/ci';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = ''; // bila di url tidak mau ada index.php, hapus saja
 
 /*
 |--------------------------------------------------------------------------
